@@ -1,7 +1,7 @@
 import { Box, Divider, Flex, Heading, Input, Stack } from '@chakra-ui/react';
 import { memo, FC, useState, ChangeEvent } from 'react';
 import { useAuth } from '../../hooks/useAuth';
-import { PrimaryButton } from './atoms/button/PrimaryButton';
+import { PrimaryButton } from '../atoms/button/PrimaryButton';
 
 export const Login: FC = memo(() => {
   const { login, loading } = useAuth();

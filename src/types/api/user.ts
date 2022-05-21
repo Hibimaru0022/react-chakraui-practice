@@ -12,13 +12,13 @@ export type User = {
       lat: string;
       lng: string;
     };
+  };
 
-    phone: string;
-    website: string;
-    company: {
-      name: string;
-      catchPhrase: string;
-      bs: string;
-    };
+  phone: string;
+  website: string;
+  company: {
+    name: string;
+    catchPhrase: string;
+    bs: string;
   };
 };
